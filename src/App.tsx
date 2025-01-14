@@ -30,6 +30,18 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white">
       <div className="container mx-auto px-4 py-12">
+
+        {/* 
+          New button that navigates to https://tayasarbhat.github.io/Googlesheet/
+          You can style it as you prefer (here's a minimal example).
+        */}
+        <button
+          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
+          onClick={() => (window.location.href = 'https://tayasarbhat.github.io/Googlesheet/')}
+        >
+          Go to Google Sheet
+        </button>
+
         {renderView()}
       </div>
     </div>
