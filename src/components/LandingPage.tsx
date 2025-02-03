@@ -136,7 +136,7 @@ function LandingPage({ onNavigate }: LandingPageProps) {
               key={tool.id}
               onClick={() => {
                 if (tool.id === 'google-sheets') {
-                  window.open('https://googlesheetz.netlify.app/', '_blank');
+                  window.open('https://tayasarbhat.github.io/GoogleSheets/', '_blank');
                 } else {
                   onNavigate(tool.id as any);
                 }
