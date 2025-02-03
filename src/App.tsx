@@ -34,12 +34,7 @@ function App() {
           New button: same styling as other buttons. 
           Opens link in a new tab by using window.open with '_blank'.
         */}
-        <button
-          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"
-          onClick={() => window.open('https://tayasarbhat.github.io/Googlesheet/', '_blank')}
-        >
-          Go to Google Sheet
-        </button>
+        
 
         {renderView()}
       </div>
