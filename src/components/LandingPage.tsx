@@ -136,7 +136,7 @@ function LandingPage({ onNavigate }: LandingPageProps) {
               key={tool.id}
               onClick={() => {
                 if (tool.id === 'google-sheets') {
-                  window.open('https://tayasarbhat.github.io/GSACS/', '_blank');
+                  window.open('https://tayasarbhat.github.io/ACSGS/', '_blank');
                 } else {
                   onNavigate(tool.id as any);
                 }
