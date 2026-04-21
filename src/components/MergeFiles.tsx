@@ -59,7 +59,7 @@ function MergeFiles({ onBack }: MergeFilesProps) {
     });
 
     // Split data into chunks of 9000
-    const chunkSize = 9000;
+    const chunkSize = 19000;
     const newChunks: ChunkInfo[] = [];
     
     for (let i = 0; i < uniqueData.length; i += chunkSize) {
